@@ -179,7 +179,7 @@
         <div class="info">
             <h3>ℹ️ 编码原理</h3>
             <ul>
-                <li><strong>i = 0，I = 1</strong> 用于二进制编码</li>
+                <li><strong>l = 0，I = 1</strong> 用于二进制编码</li>
                 <li>目标URL会被编码为二进制，然后转换为 i/I 字符串</li>
                 <li>所有链接均为永久有效，无过期时间</li>
                 <li>链接越长说明包含的信息越多</li>
@@ -231,14 +231,14 @@
             }).join('');
         }
 
-        // 二进制转 i/I 编码
+        // 二进制转 l/I 编码
         function binaryToiI(binary) {
-            return binary.split('').map(bit => bit === '0' ? 'i' : 'I').join('');
+            return binary.split('').map(bit => bit === '0' ? 'l' : 'I').join('');
         }
 
-        // i/I 编码转二进制
+        // l/I 编码转二进制
         function iIToBinary(iIString) {
-            return iIString.split('').map(char => char === 'i' ? '0' : '1').join('');
+            return iIString.split('').map(char => char === 'l' ? '0' : '1').join('');
         }
 
         // 数字转二进制（固定长度）
