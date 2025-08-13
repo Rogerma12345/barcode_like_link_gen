@@ -313,7 +313,7 @@
 
         // 从分段路径中提取编码
         function extractEncodedFromPath(path) {
-            return path.replace(/\//g, '');
+            return (path || '').replace(/[^lI]/g, '');
         }
 
         // 表单提交处理
