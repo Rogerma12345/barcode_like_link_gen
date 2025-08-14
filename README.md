@@ -1,6 +1,6 @@
 # 🔗 条形码长链接生成器
 
-一种URL编码工具，用于将普通链接转换为超长的二进制编码链接，视觉效果类似于条形码，但实现方式与[llIlI.lI](https://github.com/chenxuuu/shit-url/issues)不同。
+一种URL编码工具，用于将普通链接转换为超长的二进制编码链接，视觉效果类似于条形码，但实现方式与[棒棒网址生成器](https://github.com/chenxuuu/shit-url/tree/llIlI.lI)不同。
 
 # 使用
 将静态页面 `index.html` 打开即可使用。
